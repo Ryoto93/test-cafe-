@@ -1,4 +1,3 @@
-
 'use client';
 
 import Header from '@/components/Header';
@@ -24,7 +23,7 @@ export default function ReservationPage() {
     setIsSubmitting(true);
 
     try {
-      const response = await fetch('https://readdy.ai/api/form-submit', {
+      const response = await fetch('/api/form-submit', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/x-www-form-urlencoded',

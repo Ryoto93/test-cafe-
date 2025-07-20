@@ -1,4 +1,3 @@
-
 'use client';
 
 import Header from '@/components/Header';
@@ -13,7 +12,7 @@ export default function Home() {
       <section 
         className="relative h-screen bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `url('https://readdy.ai/api/search-image?query=Elegant%20modern%20coffee%20shop%20interior%20with%20warm%20wood%20tones%2C%20comfortable%20seating%20areas%2C%20soft%20natural%20lighting%20streaming%20through%20large%20windows%2C%20minimalist%20design%20with%20plants%20and%20books%2C%20cozy%20atmosphere%20perfect%20for%20relaxation%20and%20conversation%2C%20professional%20photography%20style&width=1920&height=1080&seq=hero-cafe&orientation=landscape')`
+          backgroundImage: `url('/images/hero-cafe.jpg')`
         }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-40"></div>
@@ -113,7 +112,7 @@ export default function Home() {
             </div>
             <div className="relative">
               <img 
-                src="https://readdy.ai/api/search-image?query=Cozy%20coffee%20shop%20interior%20with%20barista%20preparing%20coffee%2C%20warm%20lighting%2C%20wooden%20counters%2C%20coffee%20beans%20and%20equipment%20visible%2C%20professional%20and%20inviting%20atmosphere%2C%20natural%20light%20from%20windows%2C%20plants%20and%20comfortable%20seating&width=600&height=400&seq=story-cafe&orientation=landscape"
+                src="/images/story-cafe.jpg"
                 alt="カフェの様子"
                 className="rounded-lg shadow-lg object-cover w-full h-96 object-top"
               />
@@ -137,7 +136,7 @@ export default function Home() {
             <div className="bg-white p-6 rounded-lg shadow-sm">
               <div className="flex items-center mb-4">
                 <img 
-                  src="https://readdy.ai/api/search-image?query=Professional%20portrait%20of%20a%20smiling%20Japanese%20woman%20in%20her%2030s%2C%20natural%20lighting%2C%20clean%20background%2C%20friendly%20and%20approachable%20expression%2C%20business%20casual%20attire&width=80&height=80&seq=customer1&orientation=squarish"
+                  src="/images/customer1.jpg"
                   alt="田中様"
                   className="w-12 h-12 rounded-full object-cover object-top mr-4"
                 />
@@ -160,7 +159,7 @@ export default function Home() {
             <div className="bg-white p-6 rounded-lg shadow-sm">
               <div className="flex items-center mb-4">
                 <img 
-                  src="https://readdy.ai/api/search-image?query=Professional%20portrait%20of%20a%20smiling%20Japanese%20man%20in%20his%2040s%2C%20natural%20lighting%2C%20clean%20background%2C%20friendly%20and%20approachable%20expression%2C%20business%20casual%20attire&width=80&height=80&seq=customer2&orientation=squarish"
+                  src="/images/customer2.jpg"
                   alt="佐藤様"
                   className="w-12 h-12 rounded-full object-cover object-top mr-4"
                 />
@@ -183,7 +182,7 @@ export default function Home() {
             <div className="bg-white p-6 rounded-lg shadow-sm">
               <div className="flex items-center mb-4">
                 <img 
-                  src="https://readdy.ai/api/search-image?query=Professional%20portrait%20of%20a%20smiling%20Japanese%20woman%20in%20her%2020s%2C%20natural%20lighting%2C%20clean%20background%2C%20friendly%20and%20approachable%20expression%2C%20casual%20attire&width=80&height=80&seq=customer3&orientation=squarish"
+                  src="/images/customer3.jpg"
                   alt="山田様"
                   className="w-12 h-12 rounded-full object-cover object-top mr-4"
                 />
